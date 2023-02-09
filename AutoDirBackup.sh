@@ -42,8 +42,6 @@ fi
 
 # Create a temporary directory in the users home
 tmpdir="$HOME/AutoDirBackup/"
-
-echo "$tmpdir"
 mkdir -p "${tmpdir}" &>/dev/null
 
 # Make sure the temp creation worked
