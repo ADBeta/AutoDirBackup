@@ -2,7 +2,7 @@
 
 This script will create a backup using tar.gz compression, with the date and _backup_ appended, of a directory on the system, and move it to another directory.  
 
-For example:
+For example:  
 `./AutoDirBackup.sh [input dir] [output dir]`  
 `./AutoDirBackup.sh ./Files ./ ` will create a file called "Files_backup_DD-MMM-YY.tar.gz"  
 Both directories must be passed to the script.  
